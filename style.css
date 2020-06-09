@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-wrapper-one {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(133, 49, 104, 1);
+}
+
+.color-wrapper-two {
+  margin: 0;
+  padding: 0;
+  background-color: #659e3f;
+}
+
+.container {
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+}
+
+.container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .btn-wrap {
+  margin: 4rem 0;
+}
+
+
+/* Button Styles */
+
+
+.container .btn-wrap .btn {
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s;
+}
+
+.container .btn-wrap .btn:hover {
+  cursor: pointer;
+  background-color: rgba(198, 202, 99, 1);
+}
+
+.container .btn-wrap .btn-one {
+  color: #fff;
+  background-color: rgba(92, 184, 209, 1);
+}
+
+.container .btn-wrap .btn-two {
+  background-color: rgba(183, 216, 228, 1);
+  color: black;
+}
+
+.container .btn-wrap .btn-three {
+  background-color: rgba(92, 184, 209, 1);
+  color: black;
+}
+
+.container .btn-wrap .btn-four {
+  background-color: #205E6F;
+  color: #fff;
+  border: solid 1px #ccc;
+}
+
+.container .btn-wrap .btn-four:hover {
+  background-color: rgba(230, 236, 202, 1);
+  color: black;
+}
+
+.container .btn-wrap .btn-five {
+  background-color: rgba(92, 184, 209, 1);
+  color: black;
+  border: solid 1px black;
+}
+
+.container .btn-wrap .btn-five:hover {
+  background-color: rgba(230, 236, 202, 1);
+  color: black;
+  border: none;
+}
+
+.container .btn-wrap .btn-six {
+  background-color: rgba(183, 216, 228, 1);
+  color: rgba(66, 33, 61, 1);
+  border: 1px black solid;
+}
+
+.container .btn-wrap .btn-six:hover {
+  background-color: rgba(230, 236, 202, 1);
+  color: black;
+  border: none;
+}
+
+.container .btn-wrap .btn-seven {
+  background-color: #205E6F;
+  color: #fff;
+  border: solid 1px #ccc;
+}
+
+.container .btn-wrap .btn-seven:hover {
+  background-color: rgba(198, 202, 99, 1);
+  color: black;
+  border: none;
+}
+
+.container .btn-wrap .btn-eight {
+  background-color: rgba(92, 184, 209, 1);
+  color: black;
+  border: solid 1px black;
+}
+
+.container .btn-wrap .btn-eight:hover {
+  background-color: rgba(198, 202, 99, 1);
+  color: black;
+  border: none;
+}
+
+.container .btn-wrap .btn-nine {
+  background-color: rgba(92, 184, 209, 1);
+  color: black;
+  border: solid 1px rgba(69, 102, 47, 1);
+}
+
+.container .btn-wrap .btn-nine:hover {
+  background-color: rgba(198, 202, 99, 1);
+  color: black;
+  border: none;
+}
+
+
